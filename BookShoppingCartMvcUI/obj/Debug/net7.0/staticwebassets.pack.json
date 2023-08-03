@@ -1,0 +1,997 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\plyr.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\css\\style.css",
+      "PackagePath": "staticwebassets\\Bloggie\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\details-pic.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\anime\\review-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\anime\\review-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-10.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-10.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-11.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-11.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-12.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-12.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-7.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-7.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-8.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-8.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\blog-9.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\blog-9.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\bd-item-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\bd-item-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\bd-item-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\bd-item-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\bd-item-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\bd-item-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\blog-details-pic.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\blog-details-pic.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\comment-1.png",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\comment-1.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\comment-2.png",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\comment-2.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\blog\\details\\comment-3.png",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\blog\\details\\comment-3.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\live\\live-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\live\\live-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\normal-breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\normal-breadcrumb.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\popular\\popular-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\popular\\popular-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\recent\\recent-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\recent\\recent-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\comment-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\comment-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\comment-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\comment-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\comment-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\comment-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\comment-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\comment-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\tv-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\tv-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\tv-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\tv-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\tv-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\tv-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\tv-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\tv-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\sidebar\\tv-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\sidebar\\tv-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-1.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-2.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-3.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-4.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-5.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\img\\trending\\trend-6.jpg",
+      "PackagePath": "staticwebassets\\Bloggie\\img\\trending\\trend-6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\main.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\js\\player.js",
+      "PackagePath": "staticwebassets\\Bloggie\\js\\player.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\pdf.js",
+      "PackagePath": "staticwebassets\\Bloggie\\pdf.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\pdf.worker.js",
+      "PackagePath": "staticwebassets\\Bloggie\\pdf.worker.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_anime-details.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_anime-details.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_anime-watching.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_anime-watching.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_base.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_header.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_hero.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_login.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_login.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_product.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_product.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_signup.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_signup.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\_variable.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Bloggie\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\Bloggie\\sass\\style.scss"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Asta.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Asta.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Bleach.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Bleach.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Boruto.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Boruto.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Chainsaw.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Chainsaw.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Dragonball.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Dragonball.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\High School DxD V11 Chapter 68.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\High School DxD V11 Chapter 68.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\OnePunch.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\OnePunch.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Onepiece.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Onepiece.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Qunits.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Qunits.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Titan.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Titan.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\Mangas\\Yourname.pdf",
+      "PackagePath": "staticwebassets\\Mangas\\Yourname.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\blog-4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\author.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\author.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\featured\\featured-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\featured\\featured-1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\featured\\featured-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\featured\\featured-2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\featured\\featured-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\featured\\featured-3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\older_posts\\older_posts_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\older_posts\\older_posts_6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\quick_read\\quick_read_6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quick_read\\quick_read_6.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\fitness-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\fitness-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\food-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\food-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\health-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\health-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\nature-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\nature-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\technology-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\technology-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\tags\\travel-tag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tags\\travel-tag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\trending\\trending_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending_1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\trending\\trending_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending_2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\trending\\trending_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending_3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\trending\\trending_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending_4.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\images\\trending\\trending_5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\trending\\trending_5.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\assets\\normal-breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\assets\\normal-breadcrumb.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\ghost\\Canterville.jpg",
+      "PackagePath": "staticwebassets\\audio\\ghost\\Canterville.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\ghost\\cha1-3.mp3",
+      "PackagePath": "staticwebassets\\audio\\ghost\\cha1-3.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\ghost\\cha4-5.mp3",
+      "PackagePath": "staticwebassets\\audio\\ghost\\cha4-5.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\ghost\\cha6-7.mp3",
+      "PackagePath": "staticwebassets\\audio\\ghost\\cha6-7.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap1.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap1.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap10.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap10.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap2.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap2.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap3.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap3.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap4.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap4.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap5.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap5.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap6.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap6.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap7.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap7.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap8.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap8.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\Chap9.mp3",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\Chap9.mp3"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\audio\\myfatherdrag\\MyFathersDrag.jpg",
+      "PackagePath": "staticwebassets\\audio\\myfatherdrag\\MyFathersDrag.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\Career\\style.css",
+      "PackagePath": "staticwebassets\\css\\Career\\style.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\Cookie.css",
+      "PackagePath": "staticwebassets\\css\\Cookie.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\authors.css",
+      "PackagePath": "staticwebassets\\css\\authors.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\leftright.css",
+      "PackagePath": "staticwebassets\\css\\leftright.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\loading.css",
+      "PackagePath": "staticwebassets\\css\\loading.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\offlinegame.html",
+      "PackagePath": "staticwebassets\\css\\offlinegame.html"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\css\\styless.css",
+      "PackagePath": "staticwebassets\\css\\styless.css"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Blood.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\Blood.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Blood.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\Blood.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Elainabk.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\Elainabk.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Heart.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\Heart.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Heart.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\Heart.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Japan.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\Japan.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\Japan.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\Japan.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\The.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\The.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\The.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\The.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\wand.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\wand.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\you.jpg",
+      "PackagePath": "staticwebassets\\eBooks\\you.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\eBooks\\you.pdf",
+      "PackagePath": "staticwebassets\\eBooks\\you.pdf"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Another.jpg",
+      "PackagePath": "staticwebassets\\images\\Another.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Around80.jpg",
+      "PackagePath": "staticwebassets\\images\\Around80.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Barnes1.jpg",
+      "PackagePath": "staticwebassets\\images\\Barnes1.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Barnes2.jpg",
+      "PackagePath": "staticwebassets\\images\\Barnes2.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Barnes3.jpg",
+      "PackagePath": "staticwebassets\\images\\Barnes3.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Black.jpg",
+      "PackagePath": "staticwebassets\\images\\Black.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Blazing.jpg",
+      "PackagePath": "staticwebassets\\images\\Blazing.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Bloodless.jpg",
+      "PackagePath": "staticwebassets\\images\\Bloodless.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Books Information.jpg",
+      "PackagePath": "staticwebassets\\images\\Books Information.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Cantlove.jpg",
+      "PackagePath": "staticwebassets\\images\\Cantlove.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\DarkWar.jpg",
+      "PackagePath": "staticwebassets\\images\\DarkWar.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Fairy.jpg",
+      "PackagePath": "staticwebassets\\images\\Fairy.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Fantasy.jpg",
+      "PackagePath": "staticwebassets\\images\\Fantasy.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Fireash.jpg",
+      "PackagePath": "staticwebassets\\images\\Fireash.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Foundation.jpg",
+      "PackagePath": "staticwebassets\\images\\Foundation.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Franky.jpg",
+      "PackagePath": "staticwebassets\\images\\Franky.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Goku.jpg",
+      "PackagePath": "staticwebassets\\images\\Goku.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\HarryPot.jpg",
+      "PackagePath": "staticwebassets\\images\\HarryPot.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\HourAss.jpg",
+      "PackagePath": "staticwebassets\\images\\HourAss.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Ikissed.jpg",
+      "PackagePath": "staticwebassets\\images\\Ikissed.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Jossee.jpg",
+      "PackagePath": "staticwebassets\\images\\Jossee.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Kingof.jpg",
+      "PackagePath": "staticwebassets\\images\\Kingof.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Kingwrath.jpg",
+      "PackagePath": "staticwebassets\\images\\Kingwrath.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\LifeDeath.jpg",
+      "PackagePath": "staticwebassets\\images\\LifeDeath.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Lightpirate.jpg",
+      "PackagePath": "staticwebassets\\images\\Lightpirate.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Lovehypo.jpg",
+      "PackagePath": "staticwebassets\\images\\Lovehypo.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Madhon.jpg",
+      "PackagePath": "staticwebassets\\images\\Madhon.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Mangas.jpg",
+      "PackagePath": "staticwebassets\\images\\Mangas.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Maze.jpg",
+      "PackagePath": "staticwebassets\\images\\Maze.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Ministry.jpg",
+      "PackagePath": "staticwebassets\\images\\Ministry.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Mordew.jpg",
+      "PackagePath": "staticwebassets\\images\\Mordew.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Name.jpg",
+      "PackagePath": "staticwebassets\\images\\Name.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Narnia.jpg",
+      "PackagePath": "staticwebassets\\images\\Narnia.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Noimg.jpg",
+      "PackagePath": "staticwebassets\\images\\Noimg.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Odyssey.jpg",
+      "PackagePath": "staticwebassets\\images\\Odyssey.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\OnePiece.jpg",
+      "PackagePath": "staticwebassets\\images\\OnePiece.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Poseidon.jpg",
+      "PackagePath": "staticwebassets\\images\\Poseidon.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Princeand.jpg",
+      "PackagePath": "staticwebassets\\images\\Princeand.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Redawn.jpg",
+      "PackagePath": "staticwebassets\\images\\Redawn.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Redblossom.jpg",
+      "PackagePath": "staticwebassets\\images\\Redblossom.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Sentinal.jpg",
+      "PackagePath": "staticwebassets\\images\\Sentinal.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Serpentlov.jpg",
+      "PackagePath": "staticwebassets\\images\\Serpentlov.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Solar.jpg",
+      "PackagePath": "staticwebassets\\images\\Solar.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Souleat.jpg",
+      "PackagePath": "staticwebassets\\images\\Souleat.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Starwar.jpg",
+      "PackagePath": "staticwebassets\\images\\Starwar.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\TheStranger.jpg",
+      "PackagePath": "staticwebassets\\images\\TheStranger.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Titan.jpg",
+      "PackagePath": "staticwebassets\\images\\Titan.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Touchdark.jpg",
+      "PackagePath": "staticwebassets\\images\\Touchdark.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Treasureis.jpg",
+      "PackagePath": "staticwebassets\\images\\Treasureis.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Warmap.jpg",
+      "PackagePath": "staticwebassets\\images\\Warmap.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Wrongplace.jpg",
+      "PackagePath": "staticwebassets\\images\\Wrongplace.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\bookstore-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\bookstore-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\dare.jpg",
+      "PackagePath": "staticwebassets\\images\\dare.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\favor.jpg",
+      "PackagePath": "staticwebassets\\images\\favor.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\flatshare.jpg",
+      "PackagePath": "staticwebassets\\images\\flatshare.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\inwild.jpg",
+      "PackagePath": "staticwebassets\\images\\inwild.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\mangahead.jpg",
+      "PackagePath": "staticwebassets\\images\\mangahead.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\nextyr.jpg",
+      "PackagePath": "staticwebassets\\images\\nextyr.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\images\\signup.jpg",
+      "PackagePath": "staticwebassets\\images\\signup.jpg"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\publish\\pdf.js",
+      "PackagePath": "staticwebassets\\publish\\pdf.js"
+    },
+    {
+      "Id": "D:\\Shoppin\\BookShoppingCartMvc\\BookShoppingCartMvcUI\\wwwroot\\publish\\pdf.worker.js",
+      "PackagePath": "staticwebassets\\publish\\pdf.worker.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BookShoppingCartMvcUI.props",
+      "PackagePath": "build\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
