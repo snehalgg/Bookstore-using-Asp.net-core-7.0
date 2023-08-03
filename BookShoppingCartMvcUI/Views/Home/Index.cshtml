@@ -1,0 +1,312 @@
+﻿@model BookDisplayModel
+@{
+   
+}
+
+@*<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="~/css/offlinegame.html">
+                <img src="~/images/Barnes3.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+               
+                    </div>
+        </div>
+        <div class="carousel-item">
+             <a href="~/css/offlinegame.html">
+            <img src="~/images/Barnes2.jpg" class="d-block w-100" alt="...">
+        </a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <a href="~/css/offlinegame.html"></a>
+               
+            </div>
+        </div>
+        <div class="carousel-item">
+             <a href="~/css/offlinegame.html">
+            <img src="~/images/Barnes1.jpg" class="d-block w-100" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <a href="~/css/offlinegame.html">~/css/offlinegame.html</a>
+               
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>*@
+
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 100%">
+  <div class="carousel-inner">
+    <div class="carousel-item active" >
+          <a href="~/css/offlinegame.html">
+            <img src="~/images/Barnes3.jpg" class="d-block w-100" alt="...">  </a>
+    
+    </div>
+        <div class="carousel-item"> <a href="~/css/offlinegame.html">
+      <img src="~/images/Barnes1.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+        <div class="carousel-item"> <a href="~/css/offlinegame.html">
+      <img src="~/images/Barnes2.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<p style="text-align: center; font-size: 12px;">
+    FIND YOUR PLACE AT BOOKHUB'S ONLINE BOOKSTORE
+
+<br>
+    Over 5 million books ready to ship, 3.6 million eBooks and 300,000 audiobooks to download right now! Curbside pickup available in most stores!
+</p>
+<hr>
+
+
+<div class="my-2" >
+    <form asp-action="Index" class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-12">
+            <label class="visually-hidden" for="genreId">Genres</label>
+            
+            <select class="form-select" id="genreId" name="genreId">
+                <option selected>Genre</option>
+                @foreach(var genre in Model.Genres)
+                {
+                    <option selected="@(genre.Id == Model.GenreId)" value="@genre.Id">@genre.GenreName</option>
+                }
+            </select>
+        </div>
+
+        <div class="col-12">
+            <label class="visually-hidden" for="sterm">Search by title</label>
+            <div class="input-group">
+                <div class="input-group-text"></div>
+                <input type="text" class="form-control" value="@Model.STerm"  id="sterm" name="sterm" placeholder="Search by title">
+            </div>
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Search</button>
+            <a href="/Home/Index" class="btn btn-dark">Reset</a>
+        </div>
+    </form>
+</div>
+<h2 style="text-align: center;font-family:Times New Roman, Times, serif; color: red ">Now Trending</h2>
+<img src="~/images/Books Information.jpg" />
+<br>
+
+    <input onclick="myFunction()" id="a" style="padding:0;cursor:pointer; margin-left:950px; border:none; background: none; text-decoration:underline; color: red" value="Show more"></input>
+
+<div id="myDIV" style="display:none">
+<div class="w-100 mt-4 d-flex flex-wrap">
+    @foreach (var book in Model.Books){
+<div class="card mx-3 mb-4" style="width: 11rem;">
+            @if (string.IsNullOrEmpty(book.Image))
+            {
+                <img style="width:100%; height:180px" src="/images/NoImage.png" class="card-img-top" alt="...">
+            }
+            else
+            {
+                <img style="width:100%; height:180px" src="/images/@book.Image" class="card-img-top" alt="...">
+            }
+            
+    <div class="card-body">
+        <h5 class="card-title">@book.BookName</h5>
+        <p class="card-text">
+           <b>Genre: </b>@book.GenreName
+            <br>
+            <b>Author: </b>@book.AuthorName
+                    <br>
+             <b>Price: </b>₹ @book.Price
+                </p>
+            <button type="button" onclick="add(@book.Id)" class="btn btn-primary">Add to Cart</button>
+      
+    </div>
+
+</div>
+    }
+    </div>
+</div>
+<script>
+    function myFunction() {
+        var elem = document.getElementById("a");
+        if (elem.value == "Show more") elem.value = "Show Less";
+        else elem.value = "Show more";
+       
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+<section>
+
+    <div class="content">
+        <h3>Fiction Books  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Manga Mania Best Seller</h3>
+                <a href="/Home/Fantasy" title="click here to load next page"><img src="~/images/fantasy.jpg" alt="me" id="b1" height="350px" width="550px"> </a>
+       
+                <a href="/Home/Manga" title="click here to load next page"><img src="~/images/mangas.jpg" alt="me" id="b1" height="350px" width="550px"> </a>
+            </div>
+
+
+</section>
+
+
+<!-- [CurrentCookieLevel] -->
+
+<div id="cookiePopup" class="hide">
+    <link href="~/css/cookie.css" rel="stylesheet" />
+    <img src="~/images/bookstore-removebg-preview.png" />
+    <p>
+        Our website uses cookies to provide your browsing experience and
+        relevant information. Before continuing to use our website, you agree &
+        accept of our <a href="https://policies.google.com/privacy?hl=en-US">Cookie Policy & Privacy.</a>
+    </p>
+    <button id="acceptCookie">Accept</button>
+</div>
+
+
+
+<!-- Script -->
+<script>
+    let popUp = document.getElementById("cookiePopup");
+    //When user clicks the accept button
+    document.getElementById("acceptCookie").addEventListener("click", () => {
+        //Create date object
+        let d = new Date();
+        //Increment the current time by 1 minute (cookie will expire after 1 minute)
+        d.setMinutes(2 + d.getMinutes());
+        //Create Cookie withname = myCookieName, value = thisIsMyCookie and expiry time=1 minute
+        document.cookie = "myCookieName=thisIsMyCookie; expires = " + d + ";";
+        //Hide the popup
+        popUp.classList.add("hide");
+        popUp.classList.remove("show");
+    });
+    //Check if cookie is already present
+    const checkCookie = () => {
+        //Read the cookie and split on "="
+        let input = document.cookie.split("=");
+        //Check for our cookie
+        if (input[0] == "myCookieName") {
+            //Hide the popup
+            popUp.classList.add("hide");
+            popUp.classList.remove("show");
+        } else {
+            //Show the popup
+            popUp.classList.add("show");
+            popUp.classList.remove("hide");
+        }
+    };
+    //Check if cookie exists when page loads
+    window.onload = () => {
+        setTimeout(() => {
+            checkCookie();
+        }, 2000);
+    };
+
+</script>
+
+<div style="background-color: #F1F4EE;">
+    <h2 style="margin-left: 400px; font-family:Times New Roman, Times, serif; color: red">Featured Authors</h2>
+    <div class="slider" style="height: 150px; width: 100%">
+        <link href="~/css/authors.css" rel="stylesheet" />
+        <div class="slide-track" style="height: 150px;  width: 100%">
+            <div class="slide" style="height: 150px;">
+                <img src="https://th.bing.com/th/id/OIP.T0fdx_qddhFSdnEGX-cDBwHaJ0?w=142&h=188&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.XWnN7YbhxsphQrbdYZgMQQHaIy?w=125&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.kTpwakl5Fi1OU_3DdA3YZQHaJv?w=115&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.GfF0SDA4hKng4zYtWeXXsAAAAA?w=204&h=306&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.nwyK-KzeyPGpiqYZ2ll6GQHaFG?w=252&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.s0l9DYLgbeyVweUzv-bqwQAAAA?w=152&h=196&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.EAZc8Ge0FLE3QWKd0ZyWQQHaE7?w=291&h=194&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.w3qragaOBNB0CPV6x8KmZwHaJ4?w=146&h=195&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.SNovx_URk0T6tC0eSez99QHaJ4?w=151&h=201&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.-_jZ7U59HvhJduewtYJVbQHaLG?w=115&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.t4ftVg8hX0ffW_nX-g_XGgHaEH?w=264&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.mu8Y8QyDixevC0TKnhmSKAHaE8?w=240&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.0sYnlo8HQ8UuelkYsR6HSwHaEe?w=274&h=180&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://th.bing.com/th/id/OIP.3L0H2i0gdDzbRFuEgbut2QHaJ3?w=136&h=182&c=7&r=0&o=5&pid=1.7" height="150" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+@section Scripts{
+    <script>
+        async function add(bookId) {
+            var usernameEl = document.getElementById("username");
+            if (usernameEl == null) {
+                window.location.href = "/Identity/Account/Login";
+                //var username=usernameEl.innerText;
+                //  if(username.length<1){
+                //      window.location.href="/Identity/Account/Login";
+                //  }
+            }
+            try {
+                var response = await fetch(`/Cart/AddItem?bookId=${bookId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    window.location.href = "#cartCount";
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+    </script>
+    
+}

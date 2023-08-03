@@ -1,0 +1,320 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BookHub</title>
+   @* AddedBootstrap*@
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="~/css/cookie.css" rel="stylesheet" />
+    <!-- Icon for the dark mode -->
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin="anonymous"></script>
+    <link href="~/css/footer.css" rel="stylesheet" />
+    <link href="~/css/loading.css" rel="stylesheet" />
+    <style>
+
+        /*Css for dark mode*/
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+
+        .fo {
+            background-color: #a04d00;
+            border: none;
+            border-radius: 25px 25px/ 25px 25px;
+            color: rgb(247, 43, 43);
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .dm {
+            background-color: #000;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+        .lm {
+            background-color: #000;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+  
+    </style>
+</head>
+<body>
+   @* Navbar*@
+    <nav class="navbar navbar-expand-lg" style="background-color: black;">
+        <div class="container-fluid">
+            <img src="~/images/bookstore-removebg-preview.png" style="height:55px;"/>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item" style="color:aliceblue">
+                        <a class="nav-link active" href="/Home/Index" style="color:aliceblue">
+                            Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="color:aliceblue">
+                        <a class="nav-link" href="/Home/Privacy" style="color:aliceblue">eBooks</a>
+                    </li>
+                   <li class="nav-item" style="color:aliceblue">
+                        <a class="nav-link" href="/Home/Audiobooks"style="color:aliceblue">Audiobooks</a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="/Home/Publish" style="color:aliceblue">Publish</a>
+                    </li>
+                    @*   <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>*@
+                </ul>
+               <partial name ="_LoginPartial" />
+            </div>
+        </div>
+        <button class="dm" onclick="darkMode()">
+            <i id="dark-mode-btn" class="toggler far fa-moon"></i>
+            <button class="lm" onclick="lightMode()"><i class="bi bi-sun"></i></button>
+        </button>
+                <script>
+                function darkMode() {
+                    var element = document.body;
+                    var content = document.getElementById("");
+                    element.className = "dark-mode";
+                    
+                }
+                function lightMode() {
+                    var element = document.body;
+                    var content = document.getElementById("");
+                    element.className = "light-mode";
+                    
+                }
+                </script>
+    </nav>
+
+    @*Best Selling books head photo*@
+    <div id="site-wrapper">
+
+        <div class="dp-shm">
+            <div class="dp-shm-hd-wrapper">
+                <div class="dp-shm-hd">
+                    <div class="dp-shm-hd-menu">
+                        <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-logo dp-shm-gray dp-shm-brdus"></div>
+                        <div class="dp-shm-hd-nav dp-shm-dply-inbck">
+                            <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-nav-txt dp-shm-gray dp-shm-brdus"></div>
+                            <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-nav-txt dp-shm-gray dp-shm-brdus"></div>
+                            <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-nav-txt dp-shm-gray dp-shm-brdus"></div>
+                            <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-nav-txt dp-shm-gray dp-shm-brdus"></div>
+                        </div>
+                        <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-hd-search dp-shm-gray"></div>
+                        <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-closet dp-shm-gray"></div>
+                        <div class="dp-shm-anm dp-shm-dply-inbck dp-shm-cart dp-shm-gray"></div>
+                    </div>
+                    <div class="dp-shm-hd-sgin dp-shm-gray dp-shm-anm"></div>
+                </div>
+            </div>
+            <div class="dp-shm-content">
+                <div class="dp-shm-bnr dp-shm-gray dp-shm-anm"></div>
+            </div>
+        </div>
+        <div class="home-container">
+
+
+            <div class="container-fluid mobilepad0">
+                <div class="row mt-1 mb-1 mobilemargin0">
+                <button onclick="getLocation()">
+
+
+                        <img class="mobilehide w-100" src="https://www.bookswagon.com/images/promotionimages/web/1_alltimefavourite.jpg?v=1.6" alt="Up to 60%">
+
+
+                    </button>
+                    <script>
+                        var x = document.getElementById("demo");
+
+                        function getLocation() {
+                            if (navigator.geolocation) {
+                                navigator.geolocation.getCurrentPosition(showPosition);
+                            } else {
+                                x.innerHTML = "Geolocation is not supported by this browser.";
+                            }
+                        }
+
+                        function showPosition(position) {
+                            x.innerHTML = "Latitude: " + position.coords.latitude +
+                                "<br>Longitude: " + position.coords.longitude;
+                        }
+                    </script>
+                </div>
+            </div>
+
+
+
+
+    @* NavbarEnds*@
+
+    @*Loading*@
+            <div id="load">
+                Loading
+                <span1></span1>
+            </div>
+            <script>
+                document.onreadystatechange = function () {
+                    var state = document.readyState
+                    if (state == 'interactive') {
+                        document.getElementById('contents').style.visibility = "hidden";
+                    } else if (state == 'complete') {
+                        setTimeout(function () {
+                            document.getElementById('interactive');
+                            document.getElementById('load').style.visibility = "hidden";
+                            document.getElementById('contents').style.visibility = "visible";
+                        }, 1000);
+                    }
+                }
+
+            </script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-VKBJ61GEPE');
+            </script>
+
+
+
+    <div class="container">
+        @RenderBody()
+    </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+         
+
+            @*Jump Up*@
+
+            <a id="button11">
+                <i class="fas fa-angle-up"></i>
+            </a>
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+            <script type="text/javascript">
+
+                var btn = $('#button11');
+
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 300) {
+                        btn.addClass('show');
+                    } else {
+                        btn.removeClass('show');
+                    }
+                });
+
+                btn.on('click', function (e) {
+                    e.preventDefault();
+                    $('html, body').animate({ scrollTop: 0 }, '300');
+                });
+            </script>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script>
+    loadCartCount();
+    async function loadCartCount() {
+        try {
+            var response = await fetch(`/Cart/GetTotalItemInCart`);
+            console.log(response)
+            if (response.status == 200) {
+                var result = await response.json();
+                var cartCountEl = document.getElementById("cartCount");
+                cartCountEl.innerHTML = result;
+            }
+        }
+        catch (err) {
+            console.log(err);
+        }
+    }
+</script>
+
+<footer>
+    <div class="content">
+        <div class="left box">
+
+            <div class="lower">
+                <div class="topic">Contact us</div>
+                <div class="phone">
+                    <a href="#"><i class="fas fa-phone-volume"></i>+91 9370794943</a>
+                </div>
+                <div class="email">
+                    <a href="#"><i class="fas fa-envelope"></i>BookHub@Hentai.com</a>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="middle box">
+            <div class="topic">Quick Links</div>
+            <div><a href="/Home/AboutUS">About Us</a></div>
+            <div><a href="/Home/Career">Career</a></div>
+            <div><a href="/Home/Blog">Blog</a></div>
+            <div><a href="#">Help</a></div>
+            <div><a href="/Home/Contact">Contact Us</a></div>
+        </div>
+        <div class="right box">
+            <div class="topic">Sign up for newsletter</div>
+            <form action="#">
+                <input type="text" placeholder="Enter email address">
+                <input type="submit" name="" value="Subscribe">
+               
+              
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Copyright © 2023 <a href="#">Snehal Gurav</a> All rights reserved</p>
+    </div>
+</footer>
+</html>
+  
+  
+@await RenderSectionAsync("Scripts", required: false)
+

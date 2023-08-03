@@ -1,0 +1,295 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+
+
+  
+
+@*   <title>CodePen - Getform.io HTML Form Example with File Upload</title>
+    <link rel="canonical" href="https://codepen.io/getform/pen/mgEazR" />*@
+
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+    <style>
+        h1 {
+            font-size: 20px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        img {
+            height: 60px;
+        }
+
+        #preview-container {
+            margin: 50px auto;
+            width: 600px;
+        }
+
+        #upload-dialog {
+            padding: 5px;
+            border: 1px solid #336699;
+            background-color: white;
+            color: #336699;
+            background: none;
+            font-size: inherit;
+            font-family: inherit;
+            outline: none;
+            display: inline-block;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        #pdf-file {
+            display: none;
+        }
+
+        #pdf-loader {
+            display: none;
+            vertical-align: middle;
+            color: #cccccc;
+            font-size: 12px;
+        }
+
+        #pdf-preview {
+            display: none;
+            vertical-align: middle;
+            border: 1px solid rgba(0,0,0,0.2);
+            border-radius: 2px;
+        }
+
+        #pdf-name {
+            display: none;
+            vertical-align: middle;
+            color: #336699;
+            margin: 0 15px;
+            max-width: 200px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        #upload-button {
+            padding: 5px;
+            border: 1px solid #336699;
+            background-color: #336699;
+            color: white;
+            font-size: inherit;
+            font-family: inherit;
+            outline: none;
+            display: none;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        #cancel-pdf {
+            display: none;
+            vertical-align: middle;
+            padding: 0px;
+            border: none;
+            color: #777777;
+            background-color: white;
+            font-size: inherit;
+            font-family: inherit;
+            outline: none;
+            vertical-align: middle;
+            cursor: pointer;
+            margin: 0 0 0 15px;
+    </style>
+
+    <script>
+        window.console = window.console || function (t) { };
+    </script>
+    <script src="~/publish/pdf.js"></script>
+    <script src="~/publish/pdf.worker.js"></script>
+
+
+</head>
+
+<body translate="no">
+    <div class="col-md-6 offset-md-3 mt-5">
+        
+        <br>
+      
+        <h1 style="color: rgb(255, 192, 203);"> Publish with us</h1>
+        <form accept-charset="UTF-8" action="https://getform.io/f/{your-form-endpoint-goes-here}" method="POST" enctype="multipart/form-data" target="_blank">
+            <input type="text" class="form-control" id="bname" placeholder="Enter Book Name" required="required"> <br>
+            <input type="text" class="form-control" id="bname" placeholder="Enter Author Name" required="required"> <br>
+            <input type="date" class="form-control" id="bname" required="required"> <br>
+
+            <input type="text" class="form-control" id="bname" placeholder="Edition of the book" required="required">
+            <br>
+            <textarea class="form-control" rows="5" id="description" required="required">Describe few words about your book</textarea> <br>
+            <input type="number" class="form-control" id="bname" placeholder="Enter Rupees for your book" required="required"><br>
+            <hr>
+            <div id="preview-container">
+                <button id="upload-dialog">Choose PDF</button>
+                <input type="file" id="pdf-file" name="pdf" accept="application/pdf" />
+                <div id="pdf-loader">Loading Preview ..</div>
+                <canvas id="pdf-preview" width="150"></canvas>
+                <span id="pdf-name"></span>
+                <button id="upload-button" onclick="myFunction()">Upload</button>
+                <button id="cancel-pdf">Cancel</button>
+            </div>
+            <hr> <br>
+           @* <button type="submit" class="btn btn-primary">Submit</button>*@
+        </form>
+
+        <div  style="display:none" id="foo">
+           <h1>Thanks For Submitting</h1>
+           <h4>We have received your book, and will contact you shortly</h4>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("foo");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        
+        </script>
+    <script>
+
+        var _PDF_DOC,
+            _CANVAS = document.querySelector('#pdf-preview'),
+            _OBJECT_URL;
+
+        function showPDF(pdf_url) {
+            PDFJS.getDocument({ url: pdf_url }).then(function (pdf_doc) {
+                _PDF_DOC = pdf_doc;
+
+                // Show the first page
+                showPage(1);
+
+                // destroy previous object url
+                URL.revokeObjectURL(_OBJECT_URL);
+            }).catch(function (error) {
+                // trigger Cancel on error
+                document.querySelector("#cancel-pdf").click();
+
+                // error reason
+                alert(error.message);
+            });;
+        }
+
+        function showPage(page_no) {
+            // fetch the page
+            _PDF_DOC.getPage(page_no).then(function (page) {
+                // set the scale of viewport
+                var scale_required = _CANVAS.width / page.getViewport(1).width;
+
+                // get viewport of the page at required scale
+                var viewport = page.getViewport(scale_required);
+
+                // set canvas height
+                _CANVAS.height = viewport.height;
+
+                var renderContext = {
+                    canvasContext: _CANVAS.getContext('2d'),
+                    viewport: viewport
+                };
+
+                // render the page contents in the canvas
+                page.render(renderContext).then(function () {
+                    document.querySelector("#pdf-preview").style.display = 'inline-block';
+                    document.querySelector("#pdf-loader").style.display = 'none';
+                });
+            });
+        }
+
+
+        /* Show Select File dialog */
+        document.querySelector("#upload-dialog").addEventListener('click', function () {
+            document.querySelector("#pdf-file").click();
+        });
+
+        /* Selected File has changed */
+        document.querySelector("#pdf-file").addEventListener('change', function () {
+            // user selected file
+            var file = this.files[0];
+
+            // allowed MIME types
+            var mime_types = ['application/pdf'];
+
+            // Validate whether PDF
+            if (mime_types.indexOf(file.type) == -1) {
+                alert('Error : Incorrect file type');
+                return;
+            }
+
+            // validate file size
+            if (file.size > 10 * 1024 * 1024) {
+                alert('Error : Exceeded size 10MB');
+                return;
+            }
+
+            // validation is successful
+
+            // hide upload dialog button
+            document.querySelector("#upload-dialog").style.display = 'none';
+
+            // set name of the file
+            document.querySelector("#pdf-name").innerText = file.name;
+            document.querySelector("#pdf-name").style.display = 'inline-block';
+
+            // show cancel and upload buttons now
+            document.querySelector("#cancel-pdf").style.display = 'inline-block';
+            document.querySelector("#upload-button").style.display = 'inline-block';
+
+            // Show the PDF preview loader
+            document.querySelector("#pdf-loader").style.display = 'inline-block';
+
+            // object url of PDF
+            _OBJECT_URL = URL.createObjectURL(file)
+
+            // send the object url of the pdf to the PDF preview function
+            showPDF(_OBJECT_URL);
+        });
+
+        /* Reset file input */
+        document.querySelector("#cancel-pdf").addEventListener('click', function () {
+            // show upload dialog button
+            document.querySelector("#upload-dialog").style.display = 'inline-block';
+
+            // reset to no selection
+            document.querySelector("#pdf-file").value = '';
+
+            // hide elements that are not required
+            document.querySelector("#pdf-name").style.display = 'none';
+            document.querySelector("#pdf-preview").style.display = 'none';
+            document.querySelector("#pdf-loader").style.display = 'none';
+            document.querySelector("#cancel-pdf").style.display = 'none';
+            document.querySelector("#upload-button").style.display = 'none';
+        });
+
+        /* Upload file to server */
+        document.querySelector("#upload-button").addEventListener('click', function () {
+            // AJAX request to server
+            alert('This will upload file to server');
+        });
+
+    </script>
+
+
+</body>
+
+</html>
